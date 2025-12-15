@@ -24,7 +24,6 @@
             --border-radius: 10px;
             --transition: transform 0.3s ease;
         }
-
         body {
             font-family: var(--font-family);
             line-height: var(--line-height);
@@ -34,7 +33,6 @@
             color: var(--text-color);
             min-height: 100vh;
         }
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -45,7 +43,6 @@
             margin-top: 20px;
             margin-bottom: 20px;
         }
-
         h1 {
             text-align: center;
             color: var(--h1-color);
@@ -53,7 +50,6 @@
             margin-bottom: 1px;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         }
-
         h3 {
             text-align: center;
             color: var(--h3-color);
@@ -61,7 +57,6 @@
             margin-top: 1px;
             margin-bottom: 1px;
         }
-
         h5 {
             text-align: center;
             color: var(--h5-color);
@@ -69,7 +64,6 @@
             margin-top: 1px;
             margin-bottom: 1px;
         }
-
         h2 {
             color: var(--h2-color);
             margin-top: 40px;
@@ -80,7 +74,6 @@
             padding-bottom: 10px;
             position: relative;
         }
-
         h2::before {
             content: '';
             position: absolute;
@@ -90,7 +83,6 @@
             height: 3px;
             background-color: #e74c3c;
         }
-
         p {
             margin-bottom: 20px;
             margin-right: 15px;
@@ -98,25 +90,21 @@
             text-align: justify;
             font-size: 1.1em;
         }
-
         pp {
             margin-bottom: 20px;
             text-align: center;
             font-size: 1.1em;
         }
-
         .source {
             font-style: italic;
             color: var(--h3-color);
             font-size: 0.9em;
             margin-top: 10px;
         }
-
         .image-container {
             text-align: center;
             margin: 20px 0;
         }
-
         .image-container img {
             min-width: 650px;
             max-height: 250px;
@@ -124,18 +112,15 @@
             box-shadow: var(--image-shadow);
             transition: var(--transition);
         }
-
         .image-container img:hover {
             transform: scale(1.05);
         }
-
         .highlight {
             background-color: var(--highlight-bg);
             padding: 10px;
             border-left: 5px solid var(--highlight-border);
             margin: 20px 0;
         }
-
         footer {
             text-align: center;
             margin-top: 40px;
@@ -145,7 +130,6 @@
             background-color: var(--footer-bg);
             border-radius: 0 0 var(--border-radius) var(--border-radius);
         }
-
         @media (max-width: 768px) {
             h1 {
                 font-size: 2em;
@@ -211,3 +195,4 @@
     </div>
 </body>
 </html>
+
